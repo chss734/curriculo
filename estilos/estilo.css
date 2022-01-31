@@ -1,0 +1,524 @@
+/*
+barlow regular
+font-family: 'Barlow', sans-serif;
+
+barlow condensed
+font-family: 'Barlow Condensed', sans-serif;
+
+
+
+*/
+
+@media(min-width:961px){
+    body
+    {
+        margin:0;
+        padding:0;
+        background:#E5E5E5;
+    }
+    .main
+    {
+        width:70%;
+        height:90vh;
+        background:#fff;
+        margin:35px auto;
+        display:flex;
+        border-radius:0.5em;
+    
+    }
+    .sidebar
+    {
+        width:250px;
+        height:100%;
+        background:#242425;
+        border-bottom-left-radius: 0.5em;
+        border-top-left-radius: 0.5em;
+    }
+    .nome
+    {
+        width:90%;
+        height:70px;
+        margin-top:43px;
+        padding:5%;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size:35px;
+        font-weight: 700;
+        display:flex;
+        align-items: center;
+        color:#fff;
+        text-transform: uppercase;
+    }
+    .squaredev
+    {
+        width:90%;
+        height:40px;
+        background:#fff;
+        margin:20px auto;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size:20px;
+        font-style: normal;
+        font-weight: bold;
+    }
+    .textDEV
+    {
+        width:90%;
+        height:auto;
+        margin:20px auto;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        color:#ddd;
+        font-size:0.89em;
+        text-align: left;
+    }
+    .tecnologias
+    {
+        width:90%;
+        color:#ddd;
+        margin:auto;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size:17px;
+        font-style: normal;
+        font-weight: bold;
+    }
+    .tecFrameworks
+    {
+        width:100%;
+        height:auto;
+        margin-top:10px;
+        margin-bottom:35px;
+    }
+    .tecFrameworks div
+    {
+        margin-bottom:5px;
+    }
+    .tituloTec
+    {
+        color: #C9C9C9;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size:13px;
+        font-style: normal;
+        font-weight: bold;
+    
+    }
+    .barbg
+    {
+        width:100%;
+        height:10px;
+        background:#4E4E4E;
+    }
+    .liquid
+    {
+        height:100%;
+        background: #3990C1;
+    
+    
+    }
+    .perfil
+    {
+        width:90%;
+        display:flex;
+        margin:auto;
+    }
+    .fotoPessoal
+    {
+        width:50px;
+        height: 50px;
+        display:flex;
+        align-items: center;
+    
+    
+    }
+    .fotoPessoal img
+    {
+        width:100%;
+        height:auto;
+        border-radius:0.3em;
+        border:1px solid #ddd;
+        margin-right:5px;
+    }
+    .network
+    {
+        width:75%;
+        height:50px;
+        margin-left:15px;
+        display:flex;
+        align-items: center;
+    }
+    .network a
+    {
+        margin-right:5px;
+        border-radius:0.3em;
+        border:1px solid #333;
+    }
+    .network a img
+    {
+        width:32px;
+        height:32px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* EXPERIENCIAS */
+    
+    .content
+    {
+        width:70%;
+        height:100%;
+        margin-left:10px;
+    }
+    .exp
+    {
+        width:90%;
+        height:auto;
+        margin-top:55px;
+        margin-left:35px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: #4E4E4E;
+        margin-bottom:24px;
+    }
+    .card
+    {
+        width:90%;
+        height:auto;
+        margin-top:12px;
+        display:flex;
+    }
+    .barra
+    {
+        width:8px;
+        height:110px;
+        background:#C4C4C4CC;
+        margin-right:15px;
+    
+    }
+    .Cargo .tituloCargo
+    {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: #000000;
+        margin-top:5px;
+    }
+    .empresa
+    {
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #4C4C4C;
+        margin-top:5px;
+    }
+    .sobrefuncao
+    {
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: #666;
+        margin-top:10px;
+    }
+    
+    .divisao
+    {
+        width:100%;
+        height:1px;
+        background: #ddd;
+        margin-top:20px;
+    
+    }
+    .quadro_azul
+    {
+        width:7px;
+        height:7px;
+        background: #3990C1;
+        margin-top:15px;
+        margin-bottom:15px;
+    
+    }
+    .ulitens
+    {
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: #666;
+        margin-top:10px;
+    }
+}
+@media(max-width:960px){
+    body
+    {
+        margin:0;
+        padding:0;
+        background:#E5E5E5;
+    }
+    .main
+    {
+        width:98%;
+        height:auto;
+        background:#fff;
+        margin:25px auto;
+        display:flex;
+        border-radius:0.5em;
+        flex-wrap: wrap;
+    
+    }
+    .sidebar
+    {
+        width:95%;
+        height:auto;
+        background:#242425;
+        border-radius:0.5em;
+        margin:15px auto;
+        padding-bottom:30px;
+
+    }
+    .nome
+    {
+        width:90%;
+        height:70px;
+        margin-top:43px;
+        padding:5%;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size:35px;
+        font-weight: 700;
+        display:flex;
+        align-items: center;
+        color:#fff;
+        text-transform: uppercase;
+    }
+    .squaredev
+    {
+        width:90%;
+        height:40px;
+        background:#fff;
+        margin:20px auto;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size:20px;
+        font-style: normal;
+        font-weight: bold;
+    }
+    .textDEV
+    {
+        width:90%;
+        height:auto;
+        margin:20px auto;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        color:#ddd;
+        font-size:0.89em;
+        text-align: left;
+    }
+    .tecnologias
+    {
+        width:90%;
+        color:#ddd;
+        margin:auto;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size:17px;
+        font-style: normal;
+        font-weight: bold;
+    }
+    .tecFrameworks
+    {
+        width:100%;
+        height:auto;
+        margin-top:10px;
+        margin-bottom:35px;
+    }
+    .tecFrameworks div
+    {
+        margin-bottom:5px;
+    }
+    .tituloTec
+    {
+        color: #C9C9C9;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size:13px;
+        font-style: normal;
+        font-weight: bold;
+    
+    }
+    .barbg
+    {
+        width:100%;
+        height:10px;
+        background:#4E4E4E;
+    }
+    .liquid
+    {
+        height:100%;
+        background: #3990C1;
+    
+    
+    }
+    .perfil
+    {
+        width:90%;
+        display:flex;
+        margin:auto;
+    }
+    .fotoPessoal
+    {
+        width:50px;
+        height: 50px;
+        display:flex;
+        align-items: center;
+    
+    
+    }
+    .fotoPessoal img
+    {
+        width:100%;
+        height:auto;
+        border-radius:0.3em;
+        border:1px solid #ddd;
+        margin-right:5px;
+    }
+    .network
+    {
+        width:75%;
+        height:50px;
+        margin-left:15px;
+        display:flex;
+        align-items: center;
+    }
+    .network a
+    {
+        margin-right:5px;
+        border-radius:0.3em;
+        border:1px solid #333;
+    }
+    .network a img
+    {
+        width:32px;
+        height:32px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* EXPERIENCIAS */
+    
+    .content
+    {
+        width:100%;
+        height:auto;
+        margin-left:5px;
+    }
+    .exp
+    {
+        width:100%;
+        height:auto;
+        margin-top:55px;
+        margin-left:15px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: #4E4E4E;
+        margin-bottom:24px;
+    }
+    .card
+    {
+        width:90%;
+        height:auto;
+        margin-top:12px;
+        display:flex;
+    }
+    .barra
+    {
+        width:8px;
+        height:110px;
+        background:#C4C4C4CC;
+        margin-right:15px;
+    
+    }
+    .Cargo .tituloCargo
+    {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: #000000;
+        margin-top:5px;
+    }
+    .empresa
+    {
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #4C4C4C;
+        margin-top:5px;
+    }
+    .sobrefuncao
+    {
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: #666;
+        margin-top:10px;
+    }
+    
+    .divisao
+    {
+        width:90%;
+        height:1px;
+        background: #ddd;
+        margin-top:20px;
+    
+    }
+    .quadro_azul
+    {
+        width:7px;
+        height:7px;
+        background: #3990C1;
+        margin-top:15px;
+        margin-bottom:15px;
+    
+    }
+    .ulitens
+    {
+        font-family: 'Barlow', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: #666;
+        margin-top:10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
